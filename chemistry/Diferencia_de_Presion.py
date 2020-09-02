@@ -8,7 +8,7 @@ t = float(input('Ingresa la temperatura en Kelvin: '))
 a = float(input('Ingresa la "a": '))
 b = float(input('Ingresa la "b": '))
 
-#Formulas
+# Formulas
 p1 = (n * r * t) / v
 
 p2 = ((n * r * t) / (v - (n * b))) - ((a * (n ** 2))/(v ** 2))
